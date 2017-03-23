@@ -1,0 +1,11 @@
+## Java Solutions to Cracking the Coding Interview 6ᵗʰ Edition
+[Ch01_ArraysAndStrings](src/Chapter 1/)
+* [01_IsUnique](src/Chapter 1/Q1_1_Is_Unique/)
+* [02_IsPermutation](src/Chapter 1/Q1_2_Check_Permutation/)
+* [03_URLify](src/Chapter 1/Q1_3_URLify/)
+* [04_PalindromePermutation](src/Chapter 1/Q1_4_Permutation_Palindrome/)
+* [05_OneAway](src/Chapter 1/Q1_5_One_Away/)
+* [06_StringCompression](src/Chapter 1/Q1_6_String_Compression/)
+* [07_MatrixRotation](src/Chapter 1/Q1_7_Rotate_Matrix/)
+* [08_ZeroMatrix](src/Chapter 1/Q1_8_Zero_Matrix/)
+* [09_StringRotation](src/Chapter 1/Q1_9_String_Rotation/)
