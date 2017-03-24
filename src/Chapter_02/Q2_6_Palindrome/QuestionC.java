@@ -4,10 +4,10 @@ import CtCILibrary.LinkedListNode;
 
 public class QuestionC {
 
-    public static class Result {
+    private static class Result {
         private LinkedListNode node;
         private boolean result;
-        public Result(LinkedListNode n, boolean res) {
+        private Result(LinkedListNode n, boolean res) {
             node = n;
             result = res;
         }

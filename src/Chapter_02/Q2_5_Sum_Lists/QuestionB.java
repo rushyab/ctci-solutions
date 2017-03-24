@@ -3,6 +3,12 @@ package Q2_5_Sum_Lists;
 import CtCILibrary.LinkedListNode;
 
 public class QuestionB {
+
+    private static class PartialSum {
+        private LinkedListNode sum = null;
+        private int carry = 0;
+    }
+
     private static int length(LinkedListNode l) {
         if (l == null) {
             return 0;
@@ -76,7 +82,7 @@ public class QuestionB {
 
         LinkedListNode list3 = addLists(lA1, lB1);
 
-        System.out.println("  " + lA1.printForward());
+        System.out.println("     " + lA1.printForward());
         System.out.println("+ " + lB1.printForward());
         System.out.println("= " + list3.printForward());
 
