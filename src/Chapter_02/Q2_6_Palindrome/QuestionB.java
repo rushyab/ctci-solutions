@@ -17,7 +17,7 @@ public class QuestionB {
             fast = fast.next.next;
         }
 
-		/* Has odd number of elements, so skip the middle */
+		/* Has odd number of elements, so skip the middle. */
         if (fast != null) {
             slow = slow.next;
         }

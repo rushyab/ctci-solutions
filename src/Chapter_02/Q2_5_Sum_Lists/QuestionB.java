@@ -90,7 +90,7 @@ public class QuestionB {
         int l2 = linkedListToInt(lB1);
         int l3 = linkedListToInt(list3);
 
-        System.out.print(l1 + " + " + l2 + " = " + l3 + "\n");
+        System.out.println(l1 + " + " + l2 + " = " + l3);
         System.out.print(l1 + " + " + l2 + " = " + (l1 + l2));
     }
 }

@@ -7,9 +7,9 @@ public class QuestionC {
     private static class Result {
         private LinkedListNode node;
         private boolean result;
-        private Result(LinkedListNode n, boolean res) {
-            node = n;
-            result = res;
+        private Result(LinkedListNode node, boolean result) {
+            this.node = node;
+            this.result = result;
         }
     }
 
