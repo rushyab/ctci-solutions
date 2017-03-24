@@ -1,7 +1,7 @@
 # Java Solutions to Cracking the Coding Interview 6ᵗʰ Edition
 ## Chapter 1: Arrays and Strings
-* [01_IsUnique](src/Chapter_01/Q1_1_Is_Unique/)
-* [02_IsPermutation](src/Chapter_01/Q1_2_Check_Permutation/)
+* [01_IsUnique](src/Chapter_02/)
+* [02_IsPermutation](src/Chapter_02/)
 * [03_URLify](src/Chapter_01/Q1_3_URLify/)
 * [04_PalindromePermutation](src/Chapter_01/Q1_4_Permutation_Palindrome/)
 * [05_OneAway](src/Chapter_01/Q1_5_One_Away/)
@@ -9,3 +9,12 @@
 * [07_MatrixRotation](src/Chapter_01/Q1_7_Rotate_Matrix/)
 * [08_ZeroMatrix](src/Chapter_01/Q1_8_Zero_Matrix/)
 * [09_StringRotation](src/Chapter_01/Q1_9_String_Rotation/)
+## Chapter 2: Linked Lists
+* [01_RemoveDuplicates](src/Chapter_02/Q2_1_Remove_Dups/)
+* [02_KthToLast](src/Chapter_02/Q2_2_Return_Kth_To_Last/)
+* [03_DeleteMiddleNode](src/Chapter_02/Q2_3_Delete_Middle_Node/)
+* [04_Partition](src/Chapter_02/Q2_4_Partition/)
+* [05_SumLists](src/Chapter_02/Q2_5_Sum_Lists/)
+* [06_Palindrome](src/Chapter_02/Q2_6_Palindrome/)
+* [07_Intersection](src/Chapter_02/Q2_7_Intersection/)
+* [08_LoopDetection](src/Chapter_02/Q2_8_Loop_Detection/)
