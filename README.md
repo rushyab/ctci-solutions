@@ -1,7 +1,7 @@
 # Java Solutions to Cracking the Coding Interview 6ᵗʰ Edition
 ## Chapter 1: Arrays and Strings
-* [01_IsUnique](src/Chapter_02/)
-* [02_IsPermutation](src/Chapter_02/)
+* [01_IsUnique](src/Chapter_01/Q1_1_Is_Unique/)
+* [02_IsPermutation](src/Chapter_01/Q1_2_Check_Permutation/)
 * [03_URLify](src/Chapter_01/Q1_3_URLify/)
 * [04_PalindromePermutation](src/Chapter_01/Q1_4_Permutation_Palindrome/)
 * [05_OneAway](src/Chapter_01/Q1_5_One_Away/)
