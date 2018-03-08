@@ -8,7 +8,7 @@ package Q1_9_String_Rotation;
 
 public class Question {
     private static boolean isSubstring(String big, String small) {
-        if (big.indexOf(small) >= 0) {
+        if (big.indexOf(small) >= 0) { // can also use "big.contains(small)", return boolean
             return true;
         } else {
             return false;
@@ -26,13 +26,21 @@ public class Question {
     }
 
     public static void main(String[] args) {
-        String[][] pairs = {{"telephone", "lephonete"}, {"waterbottle", "erbottlewat"}, {"camera", "macera"}};
-        for (String[] pair : pairs) {
-            String word1 = pair[0];
-            String word2 = pair[1];
-            boolean is_rotation = isRotation(word1, word2);
-            System.out.println(word1 + ", " + word2 + ": " + is_rotation);
+
+        String[][] strArr = {{"waterbottle", "erbottlewat"}, {"keys", "ysek"}, {"data", "tada"}, {" ", " "}, {"", " "}};
+
+        for (String[] s: strArr) {
+            if(isRotation(s[0], s[1])) System.out.println(s[0]+", "+s[1]+ ": Yes");
+            else System.out.println(s[0]+", "+s[1]+ ": No");
         }
     }
-
 }
+
+/*
+o/p:
+waterbottle, erbottlewat: Yes
+keys, ysek: No
+data, tada: Yes
+ ,  : Yes
+,  : No
+ */

@@ -24,7 +24,7 @@ public class QuestionB {
                     index1++;
                 }
             } else {
-                index1++; // On replace, move shorter pointer
+                index1++; // if match, move shorter pointer
             }
             index2++; // Always move pointer for longer string
         }
@@ -33,7 +33,7 @@ public class QuestionB {
     }
 
     public static void main(String[] args) {
-        String[][] strArr= {{"pale", "pal"}, {"Pale", "Bale"}, {"tell", "tall"}, {"sell", "sold"}};
+        String[][] strArr= {{"pale", "pal"}, {"Pale", "Bale"}, {"tim", "tom"}, {"sms", "smith"}, {"", "  "}};
         for (String[] str : strArr) {
             String first = str[0];
             String second = str[1];
@@ -41,3 +41,13 @@ public class QuestionB {
         }
     }
 }
+
+/*
+o/p:
+pale -> pal: true
+Pale -> Bale: true
+tim -> tom: true
+sms -> smith: false
+ ->   : false
+ */
+
